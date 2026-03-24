@@ -1,0 +1,35 @@
+{
+    "name": "el-fetch",
+    "version": "0.1.0",
+    "description": "ErrorLess Fetch — fetch wrapper that always resolves with a consistent result shape. No try/catch needed.",
+    "keywords": [
+        "fetch",
+        "http",
+        "api",
+        "error-handling",
+        "isomorphic"
+    ],
+    "type": "module",
+    "main": "./index.js",
+    "exports": {
+        ".": {
+            "import": "./index.js"
+        }
+    },
+    "files": [
+        "index.js",
+        "README.md"
+    ],
+    "scripts": {
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "devDependencies": {
+        "vitest": "^2.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "license": "MIT",
+    "sideEffects": false
+}
